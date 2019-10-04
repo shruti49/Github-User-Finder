@@ -1,0 +1,42 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.box {
+  margin-left: auto;
+}
+
+
+@media (max-width: 870px) {
+  .navbar {
+    flex-direction: column;
+    padding: 0;
+  }
+  .box {
+    margin-left: 0;
+  }
+  form {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 450px) {
+  input[type='text'] {
+    width: 430px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
